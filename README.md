@@ -14,7 +14,7 @@ There is no security in this code to prevent any kind of attack. Consider implem
   - `sudo apt install git`
 - Install Python packages with :
   - `sudo apt install python3-pip -y`
-  - `sudo apt install python3-picamera2 --no-install-recommends`
+  - `sudo apt install -y python3-picamera2 --no-install-recommends`
 - Enable `I2C` via `raspi-config`
 - `git clone https://github.com/HerrFrutti/Pi-MJPEG-Server.git`
 - `cd Pi-MJPEG-Server`
