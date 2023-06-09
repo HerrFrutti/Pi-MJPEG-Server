@@ -11,7 +11,7 @@ There is no security in this code to prevent any kind of attack. Consider implem
   - `sudo apt update`
   - `sudo apt upgrade -y`
   - `sudo apt dist-upgrade -y`
-  - `sudo apt install git`
+  - `sudo apt install git -y`
 - Install Python packages with :
   - `sudo apt install python3-pip -y`
   - `sudo apt install -y python3-picamera2 --no-install-recommends`
