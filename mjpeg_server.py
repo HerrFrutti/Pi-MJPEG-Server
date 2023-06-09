@@ -12,17 +12,17 @@ from picamera2.encoders import JpegEncoder, MJPEGEncoder
 from picamera2.outputs import FileOutput
 
 # Configuration Starts #
-RESOLUTION = (1920, 1080)
+RESOLUTION = (2304, 1296) #2304x1296 (1920, 1080)
 FPS = 24
 QF = 1 # Quality factor
 
 AUTO_FOCUS = True
 HDR = True
-ROTATE_H = 1
-ROTATE_V = 1
+ROTATE_H = 0
+ROTATE_V = 0
 
 STREAM_PORT = 8764
-HW_ENCODE = False # Use Pi's SoC encoder, useful for low performance device like Pi Zero, but quality is not as good.
+HW_ENCODE = True # Use Pi's SoC encoder, useful for low performance device like Pi Zero, but quality is not as good.
 # Configuration Ends #
 
 class StreamingOutput(io.BufferedIOBase):
